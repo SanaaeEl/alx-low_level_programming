@@ -5,7 +5,7 @@
  * return int always returns 0, indicating successful completion
  */
 
-int main(void)/*return 0 if completed successfuly*/
+int main(void)/* description : return 0 if completed successfuly*/
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
