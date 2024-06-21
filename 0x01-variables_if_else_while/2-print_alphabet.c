@@ -2,8 +2,9 @@
 
 /**
  *
- * main - prints the alphabet followed by a new line
- * Return: returns 0, completed successfuly
+ * main - prints the alphabet in lower case 
+ * followed by a new line.
+ * Return: returns 0, completed successfuly.
  *
  */
 
