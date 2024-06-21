@@ -2,7 +2,7 @@
 
 /*
  *
- * main - prints the alphabet except e and q 
+ * main - prints the alphabet except e and q
  * followed by a new line
  * Return: returns 0, completed successfuly
  *
