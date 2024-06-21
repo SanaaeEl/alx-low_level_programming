@@ -3,7 +3,7 @@
 #include <time.h>
 
 
-/*
+/**
  * main - Entry point
  * Description: prints the last digit of a number followed by a new line
  * Return: return 0 if completed successfuly
