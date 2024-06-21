@@ -4,9 +4,7 @@
 /* more headers goes there */
 
 /*
- * main - assigning a random num to n
- * then printing its sign: positive, negative or zero.
- * 
+ * main - prints whether the number stored in the variable n is positive or negative.
  * Return: returns 0 indicating successful completion.
  */
 int main(void)
