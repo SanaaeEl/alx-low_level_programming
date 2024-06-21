@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- *
  * main - prints the alphabet except e and q
- * followed by a new line
- * Return: returns 0, completed successfuly
+ * followed by a new line.
+ * Return: returns 0, completed successfuly.
  *
  */
 
