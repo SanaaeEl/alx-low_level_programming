@@ -5,8 +5,8 @@
 
 /*
  * main - Entry point
- * Description: printing the sign of the number
- * using if else if, and printf to display the result
+ * Description: assigning a random num to n
+ * then printing its sign: positive, negative or zero
  * Return: returns 0 indicating successful completion
  */
 int main(void)
