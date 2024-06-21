@@ -2,7 +2,7 @@
 
 /**
  * main - prints the size of various types
- * Return : 0, no error
+ * Return value : 0, no error
  *
  */
 
