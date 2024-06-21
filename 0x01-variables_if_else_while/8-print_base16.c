@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  *
  * main - Entry point
  * Description: printf prints all numbers of base16
