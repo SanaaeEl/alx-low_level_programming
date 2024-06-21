@@ -11,6 +11,7 @@ int main(void)
 {
 	char c;
 
+	/*printing alphabet in reverse*/
 	for (c = 'z'; c >= 'a'; c--)
 	{
 		putchar(c);
