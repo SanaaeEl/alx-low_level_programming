@@ -15,3 +15,4 @@ int main(void)
 	printf("Size of a char: %a byte(s) \n",sizeof(long long int));
 	printf("Size of a char: %a byte(s) \n",sizeof(float));
 	return (0);
+}
