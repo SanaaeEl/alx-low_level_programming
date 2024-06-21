@@ -7,7 +7,8 @@
  * the variable n is positive or negative or is a 0.
  * Return: returns 0 indicating successful completion.
  */
-int main(void)
+int main(void)/*prints whether the number stored in
+ * the variable n is positive or negative or is a 0.*/
 {
 	int n;
 
