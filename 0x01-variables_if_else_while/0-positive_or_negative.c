@@ -4,10 +4,10 @@
 /* more headers goes there */
 
 /*
- * main - Entry point
- * Description: assigning a random num to n
- * then printing its sign: positive, negative or zero
- * Return: returns 0 indicating successful completion
+ * main - assigning a random num to n
+ * then printing its sign: positive, negative or zero.
+ * 
+ * Return: returns 0 indicating successful completion.
  */
 int main(void)
 {
