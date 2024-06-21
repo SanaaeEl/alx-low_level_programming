@@ -5,7 +5,7 @@
 
 /*
  * main - Entry point
- * Description: printing the sign of the number
+ * Description: printing the sign of the number using if statement and printf
  * Return: returns 0 indicating successful completion
  */
 int main(void)
