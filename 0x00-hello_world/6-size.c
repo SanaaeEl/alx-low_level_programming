@@ -9,7 +9,8 @@
 int main(void)
 {
 	/* function sizeof calculates the varialbe size*/
-	printf("Size of a char: %a byte(s) \n",sizeof(char));
+	int a;
+	printf("Size of a char: %a byte(s) \n",sizeof(a));
 	printf("Size of a char: %a byte(s) \n",sizeof(int));
 	printf("Size of a char: %a byte(s) \n",sizeof(long int));
 	printf("Size of a char: %a byte(s) \n",sizeof(long long int));
