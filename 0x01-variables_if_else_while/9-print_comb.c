@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- *
- * main - Entry point
- * Description: printf() prints all possible combinations.
+ * main - prints all possible combinations
  * of single-digit numbers, followed by a new line.
  * Return: returns 0, completed successfuly.
  *

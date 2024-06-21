@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *
- * main - prints the alphabet followed by a new line
- * Return: returns 0, completed successfuly
+ * main - prints single digit numbers of base10
+ * followed by a new line.
+ * Return: returns 0, completed successfuly.
  *
  */
 

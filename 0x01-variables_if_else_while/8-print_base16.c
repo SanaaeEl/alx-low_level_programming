@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- *
- * main - Entry point
- * Description: printf prints all numbers of base16
- * followed by a new line
- * Return: returns 0, completed successfuly
+ * main - prints all numbers of base16
+ * followed by a new line.
+ * Return: returns 0, completed successfuly.
  *
  */
 
