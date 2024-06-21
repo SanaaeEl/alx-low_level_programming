@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
+/**
  * main - prints a sentence using puts function
- * Return: 0
+ * Return: 0, no error found
  */
 
 int main(void)
