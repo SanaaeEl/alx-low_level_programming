@@ -2,7 +2,7 @@
 
 /**
  * main - prints a sentence using printf function
- * Return : returns 0, means no error
+ * Return : returns an int, means succesful execution
  *
  */
 
