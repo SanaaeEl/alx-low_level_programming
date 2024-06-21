@@ -1,15 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+
+/*
+ * main - Entry point
+ * Description: prints the last digit of a number followed by a new line
+ * Return: return 0 if completed successfuly
+ */
 int main(void)
 {
-	int n,l_dgt;
+	int n, l_dgt;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/*asigning the last digit to a variable l_dgt*/
 	l_dgt = n % 10;
 	if (l_dgt > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, l_dgt);
