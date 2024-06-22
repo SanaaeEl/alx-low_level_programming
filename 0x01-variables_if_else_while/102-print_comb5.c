@@ -11,8 +11,10 @@ int main(void)
 	int a, b;
 
 	a = b = 0;
-	do {
-		do {
+	while (a <= 99)
+	{
+		while (b <= 99)
+		{
 			if (a != b)
 			{
 				putchar('0' + a);
@@ -25,9 +27,9 @@ int main(void)
 			putchar(' ');
 			}
 		b++;
-		} while (b != 99);
+		}
 	a++;
-	} while (a != 99);
+	}
 	putchar('\n');
 	return (0);
 }
