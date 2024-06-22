@@ -10,7 +10,7 @@ int main(void)
 {
 	int a, b;
 
-	a = b = 0;
+	a = 0; b = 0;
 	while (a <= 99)
 	{
 		while (b <= 99)
@@ -24,8 +24,7 @@ int main(void)
 			if (a != 98 || b == 99)
 				continue;
 			putchar(',');
-			putchar(' ');
-			
+			putchar(' ');	
 		b++;
 		}
 	a++;
