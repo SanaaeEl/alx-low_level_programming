@@ -16,14 +16,14 @@ int main(void)
 		{
 			if (a != b)
 			{
-				putchar('0' + a);
+				putchar(a);
 				putchar(' ');
-				putchar('0' + b);
+				putchar(b);
 			}
 			if (a != 98 || b == 99)
 				continue;
 			putchar(',');
-			putchar(' ');	
+			putchar(' ');
 		}
 	}
 	putchar('\n');
