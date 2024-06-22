@@ -25,9 +25,9 @@ int main(void)
 			putchar(' ');
 			}
 		b++;
-		} while (b != 99)
+		} while (b != 99);
 	a++;
-	} while (a != 99)
+	} while (a != 99);
 	putchar('\n');
 	return (0);
 }
