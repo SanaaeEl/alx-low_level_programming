@@ -16,7 +16,8 @@ int main(void)
 		{
 			if (a != b)
 			{
-				putchar(a);
+				putchar(a/10);
+				putchar(a%10);
 				putchar(' ');
 				putchar(b);
 			}
