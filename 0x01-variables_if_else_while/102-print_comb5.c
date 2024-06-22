@@ -10,10 +10,9 @@ int main(void)
 {
 	int a, b;
 
-	a = 0; b = 0;
-	while (a <= 99)
+	for (a = 0; a <= 99; a++)
 	{
-		while (b <= 99)
+		for (b = 0; b <= 99; b++)
 		{
 			if (a != b)
 			{
@@ -25,9 +24,7 @@ int main(void)
 				continue;
 			putchar(',');
 			putchar(' ');	
-		b++;
 		}
-	a++;
 	}
 	putchar('\n');
 	return (0);
