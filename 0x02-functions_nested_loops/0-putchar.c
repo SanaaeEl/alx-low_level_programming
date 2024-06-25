@@ -9,6 +9,6 @@
 
 int main(void)
 {
-	write(STDOUT_FILENO,"_printf\n",8);
+	write(STDOUT_FILENO, "_putchar\n", 8);
 	return (0);
 }
