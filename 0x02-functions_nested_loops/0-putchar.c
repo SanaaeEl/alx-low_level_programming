@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	write(STDOUT,"_printf\n",8);
+	write(STDOUT_FILENO,"_printf\n",8);
 	return (0);
 }
