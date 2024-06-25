@@ -10,5 +10,6 @@
 int main(void)
 {
 	write(STDOUT_FILENO, "_putchar\n", 8);
+	putchar('\n');
 	return (0);
 }
