@@ -2,8 +2,8 @@
 
 /**
  * _islower - cheks for lower case characters.
- * int c: is the palceholder for the input character.
- * return 1 if the character is a lower case,
+ * c: is the palceholder for the input character.
+ * Return: return 1 if the character is a lower case,
  * and 0 if it's uppercase.
  */
 
