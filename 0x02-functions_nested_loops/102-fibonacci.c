@@ -13,7 +13,7 @@ int main(void)
 
 	a = 1;
 	b = 2;
-	printf("%d, %d", a, b);
+	printf("%ld, %ld", a, b);
 
 	for (i = 0; i < 48; i++)
 	{
@@ -23,7 +23,7 @@ int main(void)
 		/*set to the old value of 2nd nmbr*/
 		a = temp;
 		/*print new nmbr*/
-		printf(", %d", b);
+		printf(", %ld", b);
 	}
 	printf("\n");
 	return (0);
