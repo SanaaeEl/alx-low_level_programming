@@ -12,13 +12,17 @@ int main(void)
 
 	a = 1;
 	b = 2;
-	printf("%d, %d, ", a, b);
-	for (i = 0; i < 50; i++)
+	printf("%d, %d", a, b);
+
+	for (i = 0; i < 48; i++)
 	{
 		temp = b;
-		a = a + b;
-		printf("%d", a);
+		/*calculating the new value of 2nd nmbr*/
+		b = a + b;
+		/*set to the old value of 2nd nmbr*/
 		a = temp;
+		/*print new nmbr*/
+		printf("%d", b);
 	}
 	printf("\n");
 	return (0);
