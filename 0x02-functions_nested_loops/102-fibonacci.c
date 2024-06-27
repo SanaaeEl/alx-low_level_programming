@@ -22,7 +22,7 @@ int main(void)
 		/*set to the old value of 2nd nmbr*/
 		a = temp;
 		/*print new nmbr*/
-		printf("%d", b);
+		printf(", %d", b);
 	}
 	printf("\n");
 	return (0);
