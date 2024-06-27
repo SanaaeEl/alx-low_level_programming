@@ -17,14 +17,14 @@ void times_table(void)
 			{
 				_putchar(m + '0');
 			}
-			else if (m != 0 && m < 10)
+			else
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(m + '0');
 			}
-			else
+			if (m >= 10)
 			{
 				_putchar(',');
 				_putchar(' ');
