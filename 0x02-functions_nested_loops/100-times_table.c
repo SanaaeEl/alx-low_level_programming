@@ -5,9 +5,9 @@
  * @n: times table's number.
  */
 
-void times_table(int n)
+void print_times_table(int n)
 {
-	int a, b, m, n;
+	int a, b, m;
 
 	for (a = 0; a < n; a++)
 	{
