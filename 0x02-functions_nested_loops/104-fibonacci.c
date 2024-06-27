@@ -23,8 +23,10 @@ int main(void)
 		/*set to the old value of 2nd nmbr*/
 		a = temp;
 		/*print new nmbr*/
-		printf(", %ld", b);
+		if (i != 95)
+			printf(", %ld", b);
+		else
+			printf(", %ld\n", b);
 	}
-	printf("\n");
 	return (0);
 }
