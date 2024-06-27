@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - entry point, it computes and prints the sum
@@ -17,7 +16,6 @@ int main(void)
 		if ((i % 3) == 0 || (i % 5) == 0)
 			s = s + i;
 	}
-	printf("%d", s);
-	_putchar('\n');
+	printf("%d\n", s);
 	return (0);
 }
