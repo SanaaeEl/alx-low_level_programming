@@ -4,10 +4,10 @@
  * _isupper - checks for uppercase character.
  * @c: is the palceholder for the input character.
  * Return: return 1 if the character is an uppercase,
- * and 0 otherwise..
+ * and 0 otherwise.
  */
 
-int _isupper(int c)
+int _isupper(char c)
 {
 	if (isupper(c))
 		return (1);
