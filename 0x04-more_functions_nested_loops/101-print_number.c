@@ -5,7 +5,7 @@
  * @n: integer to print.
  */
 
-void print_line(int n)
+void print_number(int n)
 {
 	int temp = n;
 
