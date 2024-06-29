@@ -26,4 +26,5 @@ int main(void)
 		i++;
 	}
 	printf("%lu\n", lp_factor);
+	return (0);
 }
