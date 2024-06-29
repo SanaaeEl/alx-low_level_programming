@@ -9,8 +9,21 @@
 
 int main(void)
 {
-	long long int i, nb = 612852475143;
+	unsigned long int lp_factor, nb = 612852475143;
+	int i;
 
-
-
+	i = 2;
+	while (nb != 1)
+	{
+		if (nb % i == 0)
+		{
+			while (nb % i == 0)
+			{
+				lp_factor = i;
+				nb = nb / i;
+			}
+		}
+		i++;
+	}
+	printf("%lu\n", lp_factor);
 }
