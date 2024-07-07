@@ -15,9 +15,9 @@ int _atoi(char *s)
 
 	while (!isdigit(s[p]))
 	{
-		p++;
 		if (s[p] == '-')
 			sign++;
+		p++;
 	}
 	/* setting the pointer to the firt digit */
 	ptr = &s[p];
