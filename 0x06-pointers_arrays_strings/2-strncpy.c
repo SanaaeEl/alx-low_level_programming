@@ -22,19 +22,17 @@ char *_strncpy(char *dest, char *src, int n)
 	*	ld++;
 	*}
 	*lr = ld + n;
-	*if (ld == 0 && ls == 0)
-	*{
-	*	dest = "";
-	*}
-	*else
-	*{
 	*/
+	if (src[0] == '\0')
+	{
+		dest = "";
+	}
+	else
+	{
 		for (i = 0; i < n; i++)
 		{
 			dest[i] = src[i];
 		}
-	/**
-	 * }
-	 */
+	}
 	return (dest);
 }
