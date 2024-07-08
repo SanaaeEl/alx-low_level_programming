@@ -25,7 +25,7 @@ int _atoi(char *s)
 		sign = 1;
 	else
 		sign = -1;
-	if (s == "")
+	if (p == 0 && s[0] == '\0')
 		return (0);
 	else if (p == 0 && !(isdigit(s[0])))
 		return (0);
