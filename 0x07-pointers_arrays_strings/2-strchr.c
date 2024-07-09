@@ -11,14 +11,19 @@
 
 char *_strchr(char *s, char c)
 {
-	unsigned int i;
+	unsigned int i, l;
 
-	i = 0;
-	while (s[i] != c)
+	l = 0;
+	while (s[l] != '\0')
 	{
-		i++;
+		l++;
 	}
-	if (i == 0 && s[0] != c)
+	for (i = 0; i < l; i++)
+	{
+		if (s[i] == c)
+			break;
+	}
+	if (s[l] != c || (i == 0 && s[0] != c))
 	{
 		return (NULL);
 	}
