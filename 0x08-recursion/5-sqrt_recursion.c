@@ -13,7 +13,7 @@
 
 int find_sqrt(int n1, int st, int end)
 {
-	int mid;
+	long mid;
 
 	if (st > end)
 		return (-1);
