@@ -30,5 +30,5 @@ int is_prime_number_recur(int n, int dv)
 
 int is_prime_number(int n)
 {
-	return (is_prime_number(n, _sqrt_recursion(n)));
+	return (is_prime_number_recur(n, _sqrt_recursion(n)));
 }
