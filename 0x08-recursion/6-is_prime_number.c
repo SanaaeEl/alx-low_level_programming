@@ -18,7 +18,7 @@ int is_prime_number_recur(int n, int dv)
 		return (1);
 	if (n % dv == 0)
 		return (0);
-	return (is_prime_recur(n, dv - 1));
+	return (is_prime_number_recur(n, dv - 1));
 }
 
 /**
