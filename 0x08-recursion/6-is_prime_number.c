@@ -9,7 +9,6 @@
  * otherwise return 0.
  */
 
-int _sqrt_recursion(int n);
 
 int is_prime_number_recur(int n, int dv)
 {
@@ -22,6 +21,7 @@ int is_prime_number_recur(int n, int dv)
 	return (is_prime_number_recur(n, dv - 1));
 }
 
+
 /**
  * is_prime_number - checks if n is prime number
  * @n: the number in question
@@ -31,5 +31,10 @@ int is_prime_number_recur(int n, int dv)
 
 int is_prime_number(int n)
 {
-	return (is_prime_number_recur(n, _sqrt_recursion(n)));
+	int sqr = 1;
+
+	while (sqr * sqr <= n)
+		sqr++;
+	sqr--;
+	return (is_prime_number_recur(n, sqr));
 }
