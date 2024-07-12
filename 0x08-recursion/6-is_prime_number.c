@@ -12,13 +12,13 @@
 
 int is_prime_number_recur(int n, int dv)
 {
-	if (n <= 1)
+	if (n < 2)
 		return (0);
-	if (dv == 1)
-		return (1);
 	if (n % dv == 0)
 		return (0);
-	return (is_prime_number_recur(n, dv - 1));
+	if (n < dv * dv)
+		return (1);
+	return (is_prime_number_recur(n, dv + 1));
 }
 
 
@@ -31,10 +31,6 @@ int is_prime_number_recur(int n, int dv)
 
 int is_prime_number(int n)
 {
-	int sqr = 1;
 
-	while (sqr * sqr <= n)
-		sqr++;
-	sqr--;
-	return (is_prime_number_recur(n, sqr));
+	return (is_prime_number_recur(n, 2));
 }
