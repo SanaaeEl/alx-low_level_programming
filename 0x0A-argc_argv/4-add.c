@@ -13,7 +13,7 @@
 
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	int i, add;
+	int i, add = 0;
 	char *ptr;
 
 	if (argc <= 1)
