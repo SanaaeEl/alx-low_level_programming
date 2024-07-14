@@ -25,7 +25,7 @@ int main(int argc __attribute__((unused)), char *argv[])
 	{
 		ptr = argv[i];
 		while (*ptr != '\0')
-		{	
+		{
 			if (!isdigit(*ptr))
 			{
 				printf("Error\n");
