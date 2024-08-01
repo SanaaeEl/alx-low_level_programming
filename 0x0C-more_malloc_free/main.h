@@ -3,7 +3,7 @@
 
 
 #include <stdio.h>
-#include <sdlib.h>
+#include <stdlib.h>
 
 
 void *malloc_checked(unsigned int b);
