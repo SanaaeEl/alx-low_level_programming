@@ -3,27 +3,6 @@
 
 
 /**
- * str_len - counts the length of a string
- * @s: string in question
- * Return: the length of s
- *
- */
-
-
-int str_len(char *s)
-{
-	unsigned int a;
-
-	a = strlen(s);
-	if (s == NULL)
-	{
-		s = "\0";
-		a = 0;
-	}
-	return (a);
-}
-
-/**
  * string_nconcat - concatenates two strings.
  * @s1: first string
  * @s2: second string
@@ -38,8 +17,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int slen1, slen2, i, j;
 	char *ptr;
 
-	slen1 = str_len(s1);
-	slen2 = str_len(s2);
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+	slen1 = strlen(s1);
+	slen2 = strlen(s2);
 	if (n >= slen2)
 		n = slen2;
 	ptr = malloc((slen1 + n + 1) * sizeof(char));
