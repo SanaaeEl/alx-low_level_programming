@@ -13,10 +13,9 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int i;
-
+	int *lastel = array + size;
 
 	if (array && size && action)
-		for (i = 0; i < size, i++)
-			action(*array++);
+		for (i = 0; i < lastel, i++)
+			action(array[i]);
 }
