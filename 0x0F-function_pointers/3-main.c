@@ -9,7 +9,7 @@
  */
 
 
-int main (int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int a, b, (*operat)(int, int);
 
