@@ -10,6 +10,6 @@
 
 void __attriute__((constructor)) before_main()
 {
-	printf("You're beat! and yet, you must allow,\n bore my house
-			upon my back!\n");
+	printf("You're beat! and yet, you must allow,\n");
+	printf("bore my house upon my back!\n");
 }
