@@ -4,8 +4,8 @@
 /**
  * before_main - prints a string before the main function is executed.
  * Description: functions marked with the constructor attribute are executed
- * 		before the main function, which allows to run code during
- * 		the initialization phase of the program.
+ *		before the main function, which allows to run code during
+ *		the initialization phase of the program.
  */
 
 void __attribute__((constructor)) before_main()
