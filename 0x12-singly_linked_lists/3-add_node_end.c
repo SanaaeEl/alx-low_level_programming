@@ -17,11 +17,18 @@ list_t *add_node_end(ist_t **head, const char *str)
 		return (NULL);
 	new->str = strdup(str);
 	new->len = strlen(str);
-	while (head)
+	if (!head)
 	{
-		if (!head->next)
-			*head->next = new;
-		head->next = head;
+		*head = new;
+	}
+	else
+	{
+		while (head)
+		{
+			if (!head->next)
+				*head->next = new;
+			head->next = head;
+		}
 	}
 	return (new);
 }
