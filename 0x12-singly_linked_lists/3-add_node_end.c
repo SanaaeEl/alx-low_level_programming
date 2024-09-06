@@ -8,27 +8,30 @@
  * Return: pointer to the element
  */
 
-list_t *add_node_end(ist_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new;
+	list_t *new, *temp;
 
 	new = malloc(sizeof(list_t));
 	if (!new)
 		return (NULL);
 	new->str = strdup(str);
+	if (!new->str)
+	{
+		new->str = "(nil)";
+	}
 	new->len = strlen(str);
-	if (!head)
+	new->next = NULL;
+	if (!*head)
 	{
 		*head = new;
 	}
 	else
 	{
-		while (head)
-		{
-			if (!head->next)
-				*head->next = new;
-			head->next = head;
-		}
+		temp = *head;
+		while (temp->next)
+			temp = temp->next;
+		temp->next = new;
 	}
 	return (new);
 }
