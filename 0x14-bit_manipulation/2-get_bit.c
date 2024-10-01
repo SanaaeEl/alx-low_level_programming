@@ -7,7 +7,7 @@
  * Return: bit value at @index, otherwise -1 if there's an error
  */
 
-int get_index(unsigned long int n, unsigned int index)
+int get_bit(unsigned long int n, unsigned int index)
 {
 	if (index >= sizeof(n) * 8)
 		return (-1);
