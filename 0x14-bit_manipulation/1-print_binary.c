@@ -1,13 +1,13 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_binary - prints the binary representation of a number.
- * @n: number in question
+ * @u: number in question
  */
 void print_binary(unsigned long int u)
 {
 	unsigned long int mask = 1UL << (sizeof(u)*8 - 1);
-	int st;
+	int st = 0;
 
 	while(mask)
 	{
