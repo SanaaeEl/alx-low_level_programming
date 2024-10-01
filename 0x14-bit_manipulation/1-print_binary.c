@@ -4,14 +4,14 @@ include "main.h"
  * print_binary - prints the binary representation of a number.
  * @n: number in question
  */
-void print_binary(unsigned long int n)
+void print_binary(unsigned long int u)
 {
-	unsigned long int mask = 1UL << (sizeof(n)*8 - 1);
+	unsigned long int mask = 1UL << (sizeof(u)*8 - 1);
 	int st;
 
 	while(mask)
 	{
-		if((mask & n) != 0)
+		if((mask & u) != 0)
 		{
 			_putchar('1');
 			st = 1;
