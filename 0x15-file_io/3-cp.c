@@ -33,7 +33,7 @@ int read_check(int file_from, char *buffer, char **argv)
 				argv[1]);
 		exit(98);
 	}
-	return copy;
+	return (copy);
 }
 
 /**
